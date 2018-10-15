@@ -227,6 +227,36 @@ li {
 
 }
 
+.hero-paragraph {
+
+    display: flex;
+
+    position: relative;
+
+    width: 332px;
+
+    height: 52px;
+    
+    top: 115px;
+
+    left: 330px;
+
+    color: #9f9f9f;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+}
+
+.hero-orange {
+
+    color: #d80e0a;
+
+    cursor: pointer;
+
+}
+
 /*Main
 ------*/
 

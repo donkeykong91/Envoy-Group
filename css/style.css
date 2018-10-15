@@ -15,7 +15,9 @@ html {
 
 body {
 
-    overflow: hidden;
+    overflow-x: hidden;
+
+    background-color: #1d1d1d;
 
 }
 
@@ -31,20 +33,40 @@ li {
 
 }
 
-.container {
+/* .container {
 
     max-width: 1600px;
 
     margin: 0 auto;
 
-}
+} */
 
 /*Header
 ---------*/
 
 .header {
 
+    position: relative;
+
     background-color: black;
+
+}
+
+.hero {
+
+    background: url(../images/bg-hero.jpg) no-repeat 50% 50%;
+
+    background-size: cover;
+
+    height: 615px;
+
+    top: 0;
+
+    left: 0;
+
+    min-width: 100%;
+
+    min-height: 100%;
 
 }
 
@@ -260,26 +282,300 @@ li {
 /*Main
 ------*/
 
-.hero {
-
-    background: url(../images/bg-hero.jpg) no-repeat 50% 50%;
-
-    background-size: cover;
-
-    height: 615px;
-
-}
-
 .middle {
 
-    background-color: black;
+    position: relative;
 
 }
 
-/*Footer
---------*/
-.footer {
+.middle-info {
 
-    background-color: black;
+    position: relative;
 
+    width: 760px;
+
+    height: 66px;
+
+    left: 330px;
+
+    padding-top: 36px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 28px;
+
+    font-weight: 600;
+
+    color: white;
+
+}
+
+.middle-info > p {
+
+    padding-bottom: 25px;
+
+    border-bottom: 5px solid #282828;
+
+}
+
+.middle-orange {
+
+    color: orangered;
+
+}
+
+.middle-gray {
+
+    color: #9f9f9f;
+
+}
+
+.middle-featured-work {
+
+    position: relative;
+
+    display: flex;
+
+    width: 760px;
+
+    left: 330px;
+
+    top: 150px;
+
+    border-bottom: 2.5px solid #282828;
+
+}
+
+.middle-featured-work .middle-gray {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    
+}
+
+.middle-featured-work .middle-orange {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    margin-left: 14px;
+
+    margin-top: 27px;
+
+    cursor: pointer;
+
+}
+
+.flex-pics {
+
+    position: relative;
+
+    display: flex;
+
+    top: 150px;
+
+    left: -130px;
+
+}
+
+.sm-1-pic {
+
+    height: 120px;
+
+    margin-right: 20px;
+
+    width: 240px;
+
+}
+
+.sm-2-pic {
+
+    height: 120px;
+
+    margin-right: 20px;
+
+    width: 240px;
+}
+
+.sm-3-pic {
+    
+    height: 120px;
+
+    margin-right: 20px;
+
+    width: 240px;
+
+}
+
+.middle-wire .middle-orange {
+
+    position: relative;
+
+    display: flex;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    margin-left: 14px;
+
+    margin-top: 27px;
+
+    cursor: pointer;
+
+    top: 455px;
+
+    left: 370px;
+
+}
+
+.middle-wire .middle-gray {
+
+    position: relative;
+
+    display: flex;
+
+    width: 760px;
+
+    left: 330px;
+
+    top: 500px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    border-bottom: 2.5px solid #282828;
+
+}
+
+
+.color-teal {
+
+    color: #67d9da;
+
+}
+
+.boost-mobile > h1 {
+
+    position: relative;
+
+    left: 330px;
+
+    top: 200px;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+
+    padding-top: 10px;
+
+    margin-bottom: 0;
+}
+
+.boost-mobile > p {
+
+    position: relative;
+
+    width: 250px;
+
+    left: 330px;
+
+    top: 203px;
+
+    color: #9f9f9f;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    margin-top: 0;
+}
+
+.pear-sports > h1 {
+
+    position: relative;
+
+    left: 587px;
+
+    top: 102px;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+
+    padding-top: 10px;
+
+    margin-bottom: 0;
+}
+
+.pear-sports > p {
+
+    position: relative;
+
+    width: 250px;
+
+    left: 587px;
+
+    top: 102px;
+
+    color: #9f9f9f;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    margin-top: 0;
+}
+
+.ultimate > h1 {
+
+    position: relative;
+
+    left: 846px;
+
+    top: 5px;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+
+    padding-top: 10px;
+
+    margin-bottom: 0;
+}
+
+.ultimate > p {
+
+    position: relative;
+
+    width: 250px;
+
+    left: 846px;
+
+    top: 5px;
+
+    color: #9f9f9f;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    margin-top: 0;
 }

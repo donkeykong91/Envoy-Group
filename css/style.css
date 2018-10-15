@@ -330,7 +330,7 @@ li {
 
 }
 
-.middle-featured-work {
+.middle-featured-work-pics {
 
     position: relative;
 
@@ -338,15 +338,23 @@ li {
 
     width: 760px;
 
-    left: 330px;
+    left: 460px;
 
-    top: 150px;
-
-    border-bottom: 2.5px solid #282828;
+    top: -10px;
 
 }
 
 .middle-featured-work .middle-gray {
+
+    position: relative;
+
+    display: flex;
+
+    left: 330px;
+
+    top: 175px;
+
+    width: 760px;
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -354,9 +362,21 @@ li {
 
     font-weight: 600;
     
+    border-bottom: 2.5px solid #282828;
+
+    padding-bottom: 15px;
+
 }
 
 .middle-featured-work .middle-orange {
+
+    position: relative;
+
+    display: flex;
+
+    left: 470px;
+
+    top: 110px;
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -431,7 +451,7 @@ li {
 
     cursor: pointer;
 
-    top: 455px;
+    top: 220px;
 
     left: 370px;
 
@@ -447,7 +467,7 @@ li {
 
     left: 330px;
 
-    top: 500px;
+    top: 280px;
 
     font-family: Arial, Helvetica, sans-serif;
 
@@ -456,6 +476,8 @@ li {
     font-weight: 600;
 
     border-bottom: 2.5px solid #282828;
+
+    padding-bottom: 15px;
 
 }
 
@@ -472,7 +494,7 @@ li {
 
     left: 330px;
 
-    top: 200px;
+    top: 30px;
 
     color: white;
 
@@ -493,7 +515,7 @@ li {
 
     left: 330px;
 
-    top: 203px;
+    top: 30px;
 
     color: #9f9f9f;
 
@@ -508,9 +530,9 @@ li {
 
     position: relative;
 
-    left: 587px;
+    left: 590px;
 
-    top: 102px;
+    top: -67px;
 
     color: white;
 
@@ -529,9 +551,9 @@ li {
 
     width: 250px;
 
-    left: 587px;
+    left: 590px;
 
-    top: 102px;
+    top: -67px;
 
     color: #9f9f9f;
 
@@ -546,9 +568,9 @@ li {
 
     position: relative;
 
-    left: 846px;
+    left: 850px;
 
-    top: 5px;
+    top: -165px;
 
     color: white;
 
@@ -567,9 +589,9 @@ li {
 
     width: 250px;
 
-    left: 846px;
+    left: 850px;
 
-    top: 5px;
+    top: -165px;
 
     color: #9f9f9f;
 
@@ -578,4 +600,141 @@ li {
     font-size: 12px;
 
     margin-top: 0;
+}
+
+.weinstein > p {
+
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 26px;
+
+    font-weight: 600;
+
+    width: 250px;
+
+    top: -60px;
+
+    left: 330px;
+
+    color: white;
+
+    margin-bottom: 0;
+}
+
+.five > p {
+
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 26px;
+
+    font-weight: 600;
+
+    width: 240px;
+
+    top: -205px;
+
+    left: 587px;
+
+    color: white;
+
+    margin-bottom: 0;
+
+}
+
+.pear > p {
+
+    position: relative;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 26px;
+
+    font-weight: 600;
+
+    width: 250px;
+
+    top: -350px;
+
+    left: 846px;
+
+    color: #67d9da;
+
+    margin-bottom: 0;
+
+}
+
+.pear > .date {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: #9f9f9f;
+
+    margin-top: 0;
+
+}
+
+.five > .date {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: #9f9f9f;
+
+    margin-top: 0;
+
+}
+
+.weinstein > .date {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: #9f9f9f;
+
+    margin-top: 0;
+
+}
+
+.weinstein > .hero-orange {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: orangered;
+
+    margin-top: 2px;
+
+}
+
+.five > .hero-orange {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: orangered;
+
+    margin-top: 2px;
+
+}
+
+.pear > .hero-orange {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    color: orangered;
+
+    margin-top: 2px;
+
 }

@@ -201,6 +201,32 @@ li {
 
 }
 
+.hero-header {
+
+    display: flex;
+
+    position: relative;
+
+    height: 103px;
+
+    width: 244px;
+
+    top: 115px;
+
+    left: 330px;
+
+    line-height: 55px;
+
+    font-family: 'Pathway Gothic One', Arial, Helvetica, sans-serif;
+
+    font-size: 55px;
+
+    font-weight: 900;
+
+    color: #d90e0a;
+
+}
+
 /*Main
 ------*/
 
